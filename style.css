@@ -1,0 +1,47 @@
+.sw-container{
+    width: 80vh;
+    margin:15% auto;
+    padding:10% 0;
+    color: #000;
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 1px 2px 1px black;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+
+#sw{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+button {
+    width: 150px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:bisque;
+}
+
+#start-btn{
+    background-color: green;
+    color:black;
+}
+#stop-btn{
+    background-color: red;
+    color:black;
+}
+#reset-btn{
+    background-color: yellow;
+    color:black;
+}
+button:hover {
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
